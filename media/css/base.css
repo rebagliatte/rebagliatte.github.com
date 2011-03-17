@@ -1,0 +1,55 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,#footer form,fieldset,legend,button,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}strong{font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup,sub{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}a{text-decoration:none;}iframe{border:0}em{font-style:italic}
+
+/*** header ****************************************************************/
+body {
+	font-family: "Trebuchet MS", "Arial", "sans-serif";
+	font-size: 12px;
+	color: #595959;
+	min-width: 500px;
+}
+#header {
+	background:transparent url(../img/header_bg.png) left top repeat-x;
+	height: 85px;
+	margin: 30px 0;
+	padding: 10px 10%;
+}
+#header h1 {
+	color: white;
+	font-size: 35px;
+	font-weight:bold;
+	background:transparent url(../img/veronica_rebagliatte.png) left 10px no-repeat;
+	display: block;
+	height: 48px;
+}
+#header h1 span {
+	display: none;
+}
+#header h2 {
+	color: #6A8E1B;
+	font-size: 20px;
+	font-weight:bold;
+}
+/*** content ****************************************************************/
+#content {
+	padding: 10px 10%;
+}
+#content a {
+	color: #666;
+	display:block;
+	width: 100%;
+	padding: 10px;
+	background-color: #efefef;
+	margin-bottom: 10px;
+}
+#content a:hover {
+	text-decoration: underline;
+	background-color: #E0E0E0;
+}
+
+
+
+
+
+
+

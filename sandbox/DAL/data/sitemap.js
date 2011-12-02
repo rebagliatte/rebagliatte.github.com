@@ -7,13 +7,13 @@
 "url":"Home.html",
 "children":[
 {
-"pageName":"Page 1",
+"pageName":"Leyes",
 "type":"Wireframe",
-"url":"Page_1.html"},
+"url":"Leyes.html"},
 {
-"pageName":"Page 2",
+"pageName":"Parlamentarios",
 "type":"Wireframe",
-"url":"Page_2.html"},
+"url":"Parlamentarios.html"},
 {
 "pageName":"Page 3",
 "type":"Wireframe",

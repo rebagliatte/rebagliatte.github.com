@@ -1,11 +1,11 @@
 ﻿
-var PageName = 'Page 3';
-var PageId = '9735842729564da0afc1912658623753'
-var PageUrl = 'Page_3.html'
-document.title = 'Page 3';
+var PageName = 'Leyes';
+var PageId = 'c343c7eee07544b984d01858f8809158'
+var PageUrl = 'Leyes.html'
+document.title = 'Leyes';
 var PageNotes = 
 {
-"pageName":"Page 3",
+"pageName":"Leyes",
 "showNotesNames":"False"}
 var $OnLoadVariable = '';
 
@@ -63,4 +63,6 @@ var u5 = document.getElementById('u5');
 gv_vAlignTable['u5'] = 'top';
 var u6 = document.getElementById('u6');
 
+var u7 = document.getElementById('u7');
+gv_vAlignTable['u7'] = 'top';
 if (window.OnLoad) OnLoad();

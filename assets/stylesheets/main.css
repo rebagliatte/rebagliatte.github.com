@@ -15,7 +15,6 @@ ul {
   padding: 0;
 }
 a {
-  cursor: pointer;
   color: rgba(0, 0, 0, .65);
   text-decoration: none;
   -webkit-transition: color 0.25s linear;

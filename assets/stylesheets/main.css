@@ -1,0 +1,115 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css';
+@import 'fonts.css';
+
+/* Basic Styles */
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.8em;
+  color: rgba(0, 0, 0 ,.5);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .65);
+  text-decoration: none;
+  -webkit-transition: color 0.25s linear;
+}
+a:hover {
+  color: rgba(0, 0, 0, .9);
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+}
+.photo {
+  background: transparent url(../images/rebagliatte.jpg) no-repeat;
+  background-size: cover;
+}
+.content h1 {
+  margin-top: 0;
+  color: #E82F5E;
+}
+.networks li {
+  display: inline-block;
+}
+.networks li a {
+  padding: 1em 1em 0 0;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+.hidden {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .photo {
+    padding-bottom: 67%;
+    box-shadow: inset 0 -130px 200px -50px rgba(0,0,0,.5);
+  }
+  .logo,
+  .content {
+    padding: 2em;
+  }
+  .content {
+    text-align: center;
+  }
+  p {
+    margin: 2em auto;
+  }
+  .networks {
+    margin-top: 2em;
+  }
+  .networks li a {
+    padding: .5em;
+  }
+}
+@media (min-width: 600px) {
+  .logo,
+  .content {
+    padding: 6em;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.1em;
+  }
+  html,
+  body,
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper,
+  .content {
+    display: flex;
+  }
+  .photo {
+    width: 60%;
+    background-position: 46% 34%;
+  }
+  .content {
+    width: 40%;
+    background-color: #fff;
+    justify-content: center;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-bottom: 5px solid #E82F5E;
+  }
+}

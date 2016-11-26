@@ -1,0 +1,11 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Vero Rebagliatte -- Full Stack Developer -- @rebagliatte
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Modernizr, Normalize.css

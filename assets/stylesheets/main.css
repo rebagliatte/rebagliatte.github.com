@@ -95,10 +95,6 @@ a:hover {
   .wrapper {
     height: 100%;
   }
-  .wrapper,
-  .content {
-    display: flex;
-  }
   .photo {
     width: 60%;
     background-position: 46% 34%;
@@ -106,10 +102,27 @@ a:hover {
   .content {
     width: 40%;
     background-color: #fff;
+    border-bottom: 5px solid #E82F5E;
+  }
+
+  /* No flexbox */
+  .no-flexbox body {
+    background: transparent url(../images/rebagliatte.jpg) left top no-repeat;
+  }
+  .no-flexbox .content {
+    background: rgba(255, 255, 255, .7);
+    margin: 2em auto 0 auto;
+  }
+
+  /* Flexbox usage */
+  .flexbox .wrapper,
+  .flexbox .content {
+    display: flex;
+  }
+  .flexbox .content {
     justify-content: center;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border-bottom: 5px solid #E82F5E;
   }
 }

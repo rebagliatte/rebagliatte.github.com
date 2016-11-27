@@ -19,22 +19,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-stackoverflow:before {
+.icon-email:before {
   content: "\e900";
 }
-.icon-twitter:before {
-  content: "\f081";
-}
 .icon-facebook:before {
-  content: "\f082";
-}
-.icon-linkedin:before {
-  content: "\f08c";
+  content: "\e901";
 }
 .icon-github:before {
-  content: "\f092";
+  content: "\e902";
 }
-.icon-envelope:before {
-  content: "\f199";
+.icon-linkedin:before {
+  content: "\e903";
 }
-
+.icon-stackoverflow:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\e905";
+}

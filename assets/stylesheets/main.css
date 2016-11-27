@@ -42,6 +42,11 @@ a:hover {
   margin-top: 0;
   color: #E82F5E;
 }
+.hidden {
+  display: none;
+}
+
+/* Social Networks */
 .networks li {
   display: inline-block;
 }
@@ -50,10 +55,29 @@ a:hover {
   display: block;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.7em;
+  font-size: 1.5em;
+
 }
-.hidden {
-  display: none;
+.icon {
+  -webkit-transition: color 0.25s linear;
+}
+.icon-email:hover {
+  color: #cf4a39;
+}
+.icon-facebook:hover {
+  color: #3b5998;
+}
+.icon-github:hover {
+  color: #333;
+}
+.icon-linkedin:hover {
+  color: #117eb9;
+}
+.icon-stackoverflow:hover {
+  color: #f48024;
+}
+.icon-twitter:hover {
+  color: #1da1f2;
 }
 
 /* Media Queries */
